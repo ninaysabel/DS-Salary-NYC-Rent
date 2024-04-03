@@ -5,3 +5,7 @@ scikit_learn
 plotly
 gunicorn
 matplotlib
+geopandas
+shapely
+fiona
+dash
