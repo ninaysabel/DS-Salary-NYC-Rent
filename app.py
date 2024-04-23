@@ -20,6 +20,7 @@ df = df[df['rent'] < 7000] #98.3% of data have rent values less than 7000
 # Initialize app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 # Define neighborhood group variable
 neighbourhood_group = df['neighbourhood_group'].unique().tolist()
