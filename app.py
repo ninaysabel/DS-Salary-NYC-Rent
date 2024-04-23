@@ -305,4 +305,4 @@ def update_map(rent_range, selected_neighborhoods, selected_amenities, colorscal
 
 # Run app
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8056)
+    app.run_server(debug=True, port=8059)
