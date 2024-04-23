@@ -31,7 +31,7 @@ pie_fig = px.pie(df, names='job_category', title='Job Categories Distribution')
 gdf = gpd.GeoDataFrame(df, 
                         geometry=gpd.points_from_xy(df.longitude, df.latitude))
 
-nyc_shapefile = '/Users/ninaysabel/DS/geo_export_d02ff8e6-e0b7-41a7-90a4-bfbded2003ee.shx'
+nyc_shapefile = 'geo_export_d02ff8e6-e0b7-41a7-90a4-bfbded2003ee.shx'
 newcity = gpd.read_file(nyc_shapefile)
 
 # Set color scale for radio buttons
